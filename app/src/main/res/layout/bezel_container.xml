@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/left_view"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="#7fFF7F7F"
+        />
+
+    <View
+        android:id="@+id/right_view"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#7fFF7F7F"
+        />
+    
+</RelativeLayout>
